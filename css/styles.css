@@ -1,0 +1,242 @@
+html {
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  background-color: #faeae9;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  margin: 0;
+  height: 100%;
+}
+
+.container {
+  box-sizing: border-box;
+  box-shadow: 20px 20px 25px #f5b8b3;
+  display: flex;
+  height: 90%;
+  position: relative;
+    /* to set navbar position absolute */
+  width: 80%;
+}
+
+/******************************** NAVBAR ********************************/
+
+.navbar {
+  box-sizing: border-box;
+  padding: 2% 3%;
+  position: absolute;
+    top: 0;
+  width: 100%;
+}
+
+.navbar-content {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+}
+
+.navbar p {
+  display: inline;
+  text-transform: uppercase;
+}
+
+.navbar-content-left {
+  box-sizing: border-box;
+  display: inline-flex;
+  width: 7%;
+}
+
+.navbar-content-left:hover {
+  cursor: pointer;
+}
+
+.arrow-back-icon {
+  margin-right: 10%;
+}
+
+.navbar-content-left > p {
+  font-weight: 500;
+}
+
+.navbar-content-right {
+  box-sizing: border-box;
+  display: inline-flex;
+  position: absolute;
+    right: 0;
+  width: 28%;
+}
+
+.navbar-content-right > p {
+  color: darkgray;
+  font-weight: 500;
+  margin-left: 10%;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.navbar-content-right > p:hover {
+  color: black;
+  cursor: pointer;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+/******************************** LEFT CONTAINER ********************************/
+
+.left-container {
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  width: 30%;
+}
+
+/******************************** RIGHT CONTAINER ********************************/
+
+.right-container {
+  background-color: #fff;
+  box-sizing: border-box;
+  height: 100%;
+  width: 70%;
+}
+
+.right-container-content {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 20% 10% 10% 10%;
+}
+
+/* Right Container Content Top */
+
+.right-container-content-top {
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 7%;
+  width: 100%;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 3.9rem;
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
+  width: 52%;
+}
+
+hr {
+  border: none;
+  border-top: 5px solid black;
+  display: inline-block;
+  width: 47%;
+}
+
+.author-name {
+  font-weight: 900;
+}
+
+/* Right Container Content Bottom */
+
+.right-container-content-bottom {
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 5%;
+  width: 100%;
+  height: 40%;
+}
+
+/* Video Player Box */
+
+.video-player {
+  box-sizing: border-box;
+  height: 100%;
+  margin-right: 10%;
+  width: 40%;
+}
+
+.video-player-thumbnail {
+  height: 80%;
+  position: relative;
+}
+
+.video-player-thumbnail:hover {
+  cursor: pointer;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+}
+
+.play-icon-box-holder {
+  align-items: center;
+  display:flex;
+  justify-content: center;
+  position: absolute;
+    top: 0;
+    left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.play-icon-box {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  height: 2rem;
+  width: 2rem;
+}
+
+.play-icon {
+  height: 80%;
+  width: 80%;
+}
+
+.video-player-content {
+  align-items: center;
+  display: flex;
+  height: 20%;
+}
+
+.video-player-content:hover {
+  cursor: pointer;
+}
+
+.video-player-content > p {
+  display: inline;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.arrow-forward-icon {
+  margin-left: 1.5%;
+  width: 6.5%;
+}
+
+/* Description Box */
+
+.description {
+  box-sizing: border-box;
+  font-size: 1.15rem;
+  font-weight: 200;
+  line-height: 2;
+  width: 60%;
+}
+
+.description > p {
+  margin: 0;
+}
